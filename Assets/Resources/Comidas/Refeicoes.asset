@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6812f46958ed4c84980f920806923049, type: 3}
+  m_Name: Refeicoes
+  m_EditorClassIdentifier: 
+  nome: Novo Tipo Comida
+  comidas:
+  - name: Bife
+    value: 30
+    icon: {fileID: 21300000, guid: 3215f06e1a58eda44b2d6cbf2c0b0e5c, type: 3}
+    gains:
+    - gainType: 2
+      value: 40
+      icon: {fileID: 21300000, guid: d3a0fa9fa88e2aa4ea6253f112b8f3c4, type: 3}
+    bom: 1
+  - name: "P\xE3o"
+    value: 10
+    icon: {fileID: 21300000, guid: f87974709667c1b40b745a98e95b966d, type: 3}
+    gains:
+    - gainType: 2
+      value: 25
+      icon: {fileID: 21300000, guid: d3a0fa9fa88e2aa4ea6253f112b8f3c4, type: 3}
+    bom: 1
+  - name: Frango Frito
+    value: 35
+    icon: {fileID: 21300000, guid: 1601e3d4a238fa7448097acd034c3ba7, type: 3}
+    gains:
+    - gainType: 2
+      value: 50
+      icon: {fileID: 21300000, guid: d3a0fa9fa88e2aa4ea6253f112b8f3c4, type: 3}
+    - gainType: 0
+      value: -10
+      icon: {fileID: 21300000, guid: 51b252f8254095f49be814358a7828bb, type: 3}
+    bom: 0
+  - name: Ovo
+    value: 25
+    icon: {fileID: 21300000, guid: fccddad4e5c718d4c8d73816dff87f54, type: 3}
+    gains:
+    - gainType: 2
+      value: 30
+      icon: {fileID: 21300000, guid: d3a0fa9fa88e2aa4ea6253f112b8f3c4, type: 3}
+    - gainType: 0
+      value: 5
+      icon: {fileID: 21300000, guid: 51b252f8254095f49be814358a7828bb, type: 3}
+    bom: 1
+  - name: Batata Frita
+    value: 15
+    icon: {fileID: 21300000, guid: adffcd40075d0b448b5dff879b40042a, type: 3}
+    gains:
+    - gainType: 2
+      value: 20
+      icon: {fileID: 21300000, guid: d3a0fa9fa88e2aa4ea6253f112b8f3c4, type: 3}
+    - gainType: 0
+      value: -5
+      icon: {fileID: 21300000, guid: 51b252f8254095f49be814358a7828bb, type: 3}
+    bom: 0
+  - name: Hamburguer
+    value: 50
+    icon: {fileID: 21300000, guid: 02df7e8596ca5bb46a74541257b32831, type: 3}
+    gains:
+    - gainType: 2
+      value: 80
+      icon: {fileID: 21300000, guid: d3a0fa9fa88e2aa4ea6253f112b8f3c4, type: 3}
+    - gainType: 0
+      value: -10
+      icon: {fileID: 21300000, guid: 51b252f8254095f49be814358a7828bb, type: 3}
+    bom: 0
+  - name: Pizza
+    value: 40
+    icon: {fileID: 21300000, guid: 7346506bc06801a4ea1e0946b7484f7c, type: 3}
+    gains:
+    - gainType: 2
+      value: 70
+      icon: {fileID: 21300000, guid: d3a0fa9fa88e2aa4ea6253f112b8f3c4, type: 3}
+    - gainType: 0
+      value: -8
+      icon: {fileID: 21300000, guid: 51b252f8254095f49be814358a7828bb, type: 3}
+    bom: 0
+  - name: "Sandu\xEDche Natural"
+    value: 50
+    icon: {fileID: 21300000, guid: afa5f5ac2d4a92e4b81a842ea21d9b54, type: 3}
+    gains:
+    - gainType: 2
+      value: 60
+      icon: {fileID: 21300000, guid: d3a0fa9fa88e2aa4ea6253f112b8f3c4, type: 3}
+    - gainType: 0
+      value: 5
+      icon: {fileID: 21300000, guid: 51b252f8254095f49be814358a7828bb, type: 3}
+    bom: 1
+  - name: Espaguete
+    value: 80
+    icon: {fileID: 21300000, guid: 5b448e12f3783b947a4b9f40220a6a1b, type: 3}
+    gains:
+    - gainType: 2
+      value: 100
+      icon: {fileID: 21300000, guid: d3a0fa9fa88e2aa4ea6253f112b8f3c4, type: 3}
+    bom: 1
+  - name: Frango Assado
+    value: 60
+    icon: {fileID: 21300000, guid: e19440ac38351f941bcd20607b39d925, type: 3}
+    gains:
+    - gainType: 2
+      value: 100
+      icon: {fileID: 21300000, guid: d3a0fa9fa88e2aa4ea6253f112b8f3c4, type: 3}
+    - gainType: 0
+      value: 5
+      icon: {fileID: 21300000, guid: 51b252f8254095f49be814358a7828bb, type: 3}
+    bom: 1
